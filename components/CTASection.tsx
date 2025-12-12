@@ -33,7 +33,8 @@ export default function CTASection() {
                 variant="contained" 
                 size="large" 
                 endIcon={<ArrowRight weight="bold" />}
-                href="mailto:ali.alabbasi03@gmail.com?subject=Custom Quote Request - nomorebits"
+                component="a"
+                href="tel:+16145912558"
               >
                 Request a Quote
               </Button>

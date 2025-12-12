@@ -43,21 +43,25 @@ export default function Footer() {
             <Stack spacing={3}>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                 <Envelope size={20} color="#FF5A3C" />
-                <Link 
+                <Typography 
+                  component="a"
                   href="mailto:ali.alabbasi03@gmail.com" 
+                  variant="body2"
                   sx={{ color: '#888', textDecoration: 'none', '&:hover': { color: '#FF5A3C' } }}
                 >
                   ali.alabbasi03@gmail.com
-                </Link>
+                </Typography>
               </Box>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                 <Phone size={20} color="#FF5A3C" />
-                <Link 
+                <Typography 
+                  component="a"
                   href="tel:+16145912558" 
+                  variant="body2"
                   sx={{ color: '#888', textDecoration: 'none', '&:hover': { color: '#FF5A3C' } }}
                 >
                   (614) 591-2558
-                </Link>
+                </Typography>
               </Box>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                 <MapPin size={20} color="#FF5A3C" />
